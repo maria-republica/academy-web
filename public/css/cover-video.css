@@ -1,0 +1,36 @@
+.cover--video {
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  padding: var(--side-padding);
+}
+
+.cover--video .video-wrapper {
+  box-sizing: border-box;
+  background-color: var(--black-academy);
+  padding: 0;
+  width: 620px;
+}
+
+.video-wrapper iframe {
+  width: 620px;
+  height: 350px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .cover--video .video-wrapper {
+    background-color: var(--black-academy);
+    padding: 0;
+    width: 300px;
+  }
+
+  .video-wrapper iframe {
+    width: 300px;
+    height: 200px;
+  }
+}

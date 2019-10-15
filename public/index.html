@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/video-carrousel.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="images/icons/amarillo.png">
+  <title>Centraal Academy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="twitter:" content="">
+  <meta name="theme-color" content="#3c9aeb"/>
+  <meta name="Description" content="Centraal Academy es la mejor academia de desarrollo en México, tenemos programas para los que no saben nada y quieren aprender o para los que necesitan especializarse. ">
+  <meta property="og:image" content="images/icons/amarillo.png" />
+  <meta name="og:title" property="og:title" content="Centraal Academy - Entra al mundo de la tecnología">
+  <meta name="robots" content="index, follow">
+  <link href="https://centraa.academy" rel="canonical">
+
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '219335928962888');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1"
+  src="https://www.facebook.com/tr?id=219335928962888&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128948312-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128948312-1');
+  </script>
+  <!-- end of google analytics -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h2 class="navbar__title title"><a href="/">centraal academy</a></h2>
+      <div class="navbar__links">
+        <a href="about-us.html">Nosotros</a>
+        <a href="#programs">Programas</a>
+        <!--<a href="open-class.html">Open Class <span class="highlight--red">LIVE</span></a>-->
+        <!-- <a href="becas.html">Becas</a> -->
+      </div>
+      <div>
+        <a href="https://www.facebook.com/CentraalAcademy/" target="_blank"><img class="navbar__social" src="images/redes/facebook.png" alt="Link a Facebook"></a>
+        <a href="https://twitter.com/centraalAcademy?lang=es" target="_blank"><img class="navbar__social" src="images/redes/twitter.png" alt="Link a Twitter"></a>
+        <a href="https://www.instagram.com/centraalacademy/" target="_blank"><img class="navbar__social" src="images/redes/instagram.png" alt="Link a Instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=5215544636572&text=Hola,%20me%20gustar%C3%ADa%20pedir%20informes%20:)" target="_blank"><img class="navbar__social" src="images/redes/whatsapp.png" alt="Link a Whatsapp"></a>
+      </div>
+      <div class="navbar__button--mobile sidenav__trigger">
+        <button>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="sidenav">
+    <span class="sidenav__close-button sidenav__trigger">X</span>
+    <ul class="sidenav__list">
+      <li class="sidenav__link title"><a href="index.html">Home</a></li>
+      <li class="sidenav__link title"><a href="about-us.html">Nosotros</a></li>
+      <li class="sidenav__link title"><a href="#programs">Programas</a></li>
+      <!--<li class="sidenav__link title"><!--<a href="open-class.html">Open Class <span class="highlight--red">LIVE</span></a></li>-->
+      <!-- <li class="sidenav__link title"><!-- <a href="becas.html">Becas</a> --></li> -->
+      <li class="sidenav__link title"></li>
+    </ul>
+  </section>
+
+  <section class="cover cover--homepage">
+    <picture>
+      <img src="images/cover-images/slogan-shadow.png" alt="Impulsamos el mejor talento tec">
+    </picture>
+    <div>
+      <a class="navbar__button action-button" href="form.html">Aplica</a>
+    </div>
+  </section>
+
+  <section class="stats content">
+    <article class="stats-data">
+      <div>
+        <h3 class="stats-data__number">+32</h3>
+        <p class="stats-data-text text">Becas</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number">2</h3>
+        <p class="stats-data-text text">Sedes, Guadalajara <br>y Ciudad de México</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number">85%</h3>
+        <p class="stats-data-text text">de alumnos <br>consiguen trabajo</p>
+      </div>
+      <!-- <div>
+        <h3 class="stats-data__number code-instruction">$15,000</h3>
+        <p class="stats-data-text text">Salario promedio a <br>egresados del programa</p>
+      </div> -->
+    </article>
+    <article class="stats-code-slogan">
+      <p>
+        <span class="code-instruction">if </span>
+        <span class="code-sign">( </span>
+        <span>wantToWork</span>
+        <span class="code-sign"> == </span>
+        <span class="code-variable">true</span>
+        <span class="code-sign"> ) </span>
+        <span class="code-sign">{ </span>
+        <span class="code-instruction">return </span>
+        <span class="code-variable">centraalAcademy</span>
+        <span class="code-sign">( )</span>
+        <span class="code-sign">}</span>
+        <span class="code-sign">;</span>
+      </p>
+    </article>
+  </section>
+
+  <section id="programs" class="programs content">
+    <div class="programs-grid-container">
+      <h2 class="programs-title title">Programas</h2>
+      <h2 class="programs-title title"></h2>
+      <article class="text-card">
+        <p class="sub-title"><span>¡Iniciamos Septiembre 2019!</span></p>
+        <br>
+        <p>Forma parte de la próxima generación de desarrolladores que crearán las plataformas y productos que tendrán un impacto en el siguiente billón de usuarios. </p>
+        <br>
+        <p>No pierdas esta oportunidad.</p>
+        <br>
+        <a class="action-button full-button" href="form.html">Aplica</a>
+      </article>
+      <article class="fullstack-card program-card">
+        <a href="programs/fullstack.html">
+          <img class="program-card__image" src="images/badges/fullstack-badge.png" alt="">
+          <h4 class="title">FullStack</h4>
+          <h4 class="title">(programación)</h4>
+        </a>
+      </article>
+      <article class="program-card ux-card">
+        <a href="programs/ux.html">
+          <img class="program-card__image" src="images/badges/ux-badge.png" alt="">
+          <h4 class="title">User Experience</h4>
+          <h4 class="title">(UX)</h4>
+        </a>
+      </article>
+      <article class="program-card flutter-card">
+      </article>
+      <article class="program-card cloud-architect-card">
+        <a href="programs/cloud-architect.html">
+          <img class="program-card__image" src="images/badges/cloud-badge.png" alt="">
+          <h4 class="title">Cloud Architect</h4>
+          <h4 class="title">(Avanzado)</h4>
+        </a>
+      </article>
+      <!-- <article class="program-card flutter-card">
+        <a href="programs/marketing-startup.html">
+          <img class="program-card__image" src="images/badges/marketing-badge.png" alt="">
+          <h4 class="title">Marketing</h4>
+          <h4 class="title">para startups</h4>
+        </a>
+      </article> -->
+      <article class="program-card machine-card">
+        <a href="programs/machine-learning.html">
+          <img class="program-card__image" src="images/badges/machin-badge.png" alt="">
+          <h4 class="title">Machine Learning</h4>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="testimony">
+    <article class="content">
+      <h2 class="title">Testimonios</h2>
+      <section class="video-carrousel">
+        <article class="video-carrousel__control left arrow-left">
+          <img src="images/icons/arrow-back--white.png" alt="previews-video">
+        </article>
+        <div class="video-carrousel__window">
+          <article class="video-wrapper video-carrousel__wrapper carrouselItem">
+            <iframe class="video-iframe"
+                    src="https://www.youtube.com/embed/Fop2YgWxfFQ"
+                    color="#3c9aeb"
+                    modestbranding="1"
+                    frameborder="0"
+                    rel="0"
+                    showinfo="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </article>
+          <article class="video-wrapper video-carrousel__wrapper carrouselItem">
+            <iframe class="video-iframe"
+                    src="https://www.youtube.com/embed/LTW1Ntil2Mc"
+                    color="#3c9aeb"
+                    modestbranding="1"
+                    frameborder="0"
+                    rel="0"
+                    showinfo="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </article>
+          <article class="video-wrapper video-carrousel__wrapper carrouselItem">
+            <iframe class="video-iframe"
+                    src="https://www.youtube.com/embed/BZ4-YxxmfHY"
+                    color="#3c9aeb"
+                    modestbranding="1"
+                    frameborder="0"
+                    rel="0"
+                    showinfo="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </article>
+          <article class="video-wrapper video-carrousel__wrapper carrouselItem">
+            <iframe class="video-iframe"
+                    src="https://www.youtube.com/embed/quwjgs5OgrA"
+                    color="#3c9aeb"
+                    modestbranding="1"
+                    frameborder="0"
+                    rel="0"
+                    showinfo="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </article>
+        </div>
+        <article class="video-carrousel__control right arrow-right">
+          <img src="images/icons/arrow-forward--white.png" alt="next-video">
+        </article>
+      </section>
+    </article>
+  </section>
+
+
+  <!-- <section class="next-dates">
+    <article class="content">
+      <img class="next-dates-image" src="images/icons/calendar-icon.png" alt="">
+      <h2 class="title next-dates-title">Próximas Fechas</h2>
+      <ul class="next-dates-list">
+        <li>
+          <h3 class="next-dates-months sub-title">Enero - Febrero <span class="next-dates-year">2018</span></h3>
+          <a class="next-dates-cta sub-text" href="">Registro</a>
+        </li>
+        <li>
+          <h3 class="sub-title">Enero - Febrero <span>2018</span></h3>
+          <a class="next-dates-cta sub-text" href="">Registro</a>
+        </li>
+        <li>
+          <h3 class="sub-title">Enero - Febrero <span>2018</span></h3>
+          <a class="next-dates-cta sub-text" href="">Registro</a>
+        </li>
+      </ul>
+    </article>
+  </section> -->
+
+  <section class="jobs">
+    <div class="content">
+      <h3 classs="sub-title">Tendrás la oportunidad de solicitar trabajo en:</h3>
+      <div class="jobs-logos">
+        <img class="jobs-logos-image" src="images/bosch.png" alt="">
+        <img class="jobs-logos-image" src="images/ironbit.png" alt="">
+        <img class="jobs-logos-image" src="images/beeva.png" alt="">
+        <img class="jobs-logos-image softtek" src="images/softtek.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="cities">
+    <div class="content">
+      <h2 class="title">Nuestras sedes</h2>
+      <div class="cities-card-container">
+        <article class="city-card">
+          <img class="city-card-image" src="images/cover-images/web-mobile__cover.jpg" alt="">
+          <h4 class="city-card-title sub-title cdmx">Ciudad de México</h4>
+        </article>
+        <article class="city-card">
+          <img class="city-card-image" src="images/card-images/city__gdl.jpg" alt="">
+          <h4 class="city-card-title sub-title gdl">Guadalajara</h4>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section class="content">
+      <div class="footer__sections">
+        <article class="footer__column">
+          <h3 class="footer__title title">centraal academy</h3>
+          <p>email:</p>
+          <p>academy@centraal.com</p>
+          <a class="footer__link" href="aviso-de-privacidad.html">Aviso de privacidad</a>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección GDL</h5>
+          <p>Av. Unión 48,</p>
+          <p>Colonia Ladron de Guevara, 44600,</p>
+          <p>Guadalajara, Jal.</p>
+          <p class="footer__phone">tel: 33 15 800 500</p>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección CDMX</h5>
+          <p>Zamora 187, Condesa</p>
+          <p>06140 Cuahutémoc,</p>
+          <p>Ciudad de México</p>
+          <p class="footer__phone">tel: 55 3547 1780</p>
+        </article>
+      </div>
+      <img class="footer__image" src="images/showMe.png" alt="">
+    </section>
+  </footer>
+
+  <script src="javascript/index.js" async></script>
+  <script src="javascript/sidenav.js" async></script>
+  <script src="javascript/video-carrousel.js" async></script>
+</body>
+</html>

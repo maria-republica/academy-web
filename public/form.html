@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="images/icons/amarillo.png">
+  <title>Centraal Academy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '219335928962888');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1"
+  src="https://www.facebook.com/tr?id=219335928962888&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128948312-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128948312-1');
+  </script>
+  <!-- end of google analytics -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h2 class=" navbar__title title"><a href="/">centraal.academy</a></h2>
+      <div class="navbar__links">
+        <a href="about-us.html">Nosotros</a>
+        <a href="/#programs">Programas</a>
+        <!--<a href="open-class.html">Open Class <span class="highlight--red">LIVE</span></a>-->
+        <!-- <a href="becas.html">Becas</a> -->
+
+      </div>
+      <div>
+        <a href="https://www.facebook.com/CentraalAcademy/" target="_blank"><img class="navbar__social" src="images/redes/facebook.png" alt="Link a Facebook"></a>
+        <a href="https://twitter.com/centraalAcademy?lang=es" target="_blank"><img class="navbar__social" src="images/redes/twitter.png" alt="Link a Twitter"></a>
+        <a href="https://www.instagram.com/centraalacademy/" target="_blank"><img class="navbar__social" src="images/redes/instagram.png" alt="Link a Instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=5215544636572&text=Hola,%20me%20gustar%C3%ADa%20pedir%20informes%20:)" target="_blank"><img class="navbar__social" src="images/redes/whatsapp.png" alt="Link a Whatsapp"></a>
+      </div>
+      <div class="navbar__button--mobile sidenav__trigger">
+        <button>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="sidenav">
+    <span class="sidenav__close-button sidenav__trigger">X</span>
+    <ul class="sidenav__list">
+      <li class="sidenav__link title"><a href="index.html">Home</a></li>
+      <li class="sidenav__link title"><a href="about-us.html">Nosotros</a></li>
+      <li class="sidenav__link title"><a href="index.html#programs">Programas</a></li>
+      <!--<li class="sidenav__link title"><!--<a href="open-class.html">Open Class <span class="highlight--red">LIVE</span></a>--></li>-->
+      <!-- <li class="sidenav__link title"><!-- <a href="becas.html">Becas</a> --></li> -->
+      <li class="sidenav__link title"></li>
+    </ul>
+  </section>
+
+  <section class="cover cover--form"></section>
+
+  <section class="stats content">
+    <article class="stats-data">
+      <!--<div>-->
+        <!--<h3 class="stats-data__number">+32</h3>-->
+        <!--<p class="stats-data-text text">Becas</p>-->
+      <!--</div>-->
+      <div>
+        <h3 class="stats-data__number">2</h3>
+        <p class="stats-data-text text">Sedes, Guadalajara <br>y Ciudad de México</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number">85%</h3>
+        <p class="stats-data-text text">de alumnos <br>consiguen trabajo</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="form">
+    <form id="program-form" class="content program-form">
+      <h1 class="title--uppercase form__title">Formulario</h1>
+      <br>
+      <p>En Centraal Academy tenemos el objetivo de formar a talento tech que
+        darán soluciones a los problemas del futuro, por lo que nuestros
+        programas están diseñados por GDE (Google Developer Expert) que es un
+        reconocimiento por parte de Google a expertos en diferentes temas. </p>
+      <br>
+      <p>¡Prepárate para los empleos del futuro! ¡Forma parte de la comunidad
+        de Centraal Academy!</p>
+      <div class="form__input-container">
+        <input type="text" value="leads form" name="formName" style="display:none">
+        <article class="form__group">
+          <h3 class="form__subtitle sub-title">1.- Datos personales</h3>
+          <label for="name">Nombre Completo</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="phone">Teléfono</label>
+          <input id="phone" name="phone" type="number" required>
+        </article>
+        <article class="form__group">
+          <h3 class="form__subtitle sub-title">2.- Selecciona un programa</h3>
+          <label for="">Programa</label>
+          <select name="program" form="program-form">
+            <option value=""></option>
+            <option value="fullstack">Fullstack</option>
+            <!-- <option value="web">Web Mobile Specialist</option> -->
+            <option value="cloud">Cloud Architect</option>
+            <option value="ux">User Experience</option>
+            <option value="marketing">Estrategias Digitales para startups</option>
+            <!-- <option value="machine learning">Machine Learning</option> -->
+            <!-- <option value="flutter">Flutter</option> -->
+          </select>
+          <label for="">Ciudad</label>
+          <select name="city" form="program-form">
+            <option value=""></option>
+            <option value="cdmx">Ciudad de México</option>
+            <option value="gdl">Guadalajara</option>
+          </select>
+        </article>
+      </div>
+      <p class="error-message">Debes poner todos tus datos 😅</p>
+      <input class="action-button form__button" type="submit" value="Aplica">
+    </form>
+  </section>
+
+  <section class="thx-message hidden">
+    <h2>¡Gracias! Te enviaremos un mail con más información del programa en el que estas interesado y pronto nos pondremos en contacto contigo.</h2>
+    <img class="thx-message__img" src="images/icons/amarillo.png" alt="Centraal Academy face logo">
+  </section>
+
+  <footer>
+    <section class="content">
+      <div class="footer__sections">
+        <article class="footer__column">
+          <h3 class="footer__title title">centraal academy</h3>
+          <p>email:</p>
+          <p>academy@centraal.com</p>
+          <a class="footer__link" href="aviso-de-privacidad.html">Aviso de privacidad</a>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección GDL</h5>
+          <p>Av. Unión 48,</p>
+          <p>Colonia Ladron de Guevara, 44600,</p>
+          <p>Guadalajara, Jal.</p>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección CDMX</h5>
+          <p>Zamora 187, Condesa</p>
+          <p>06140 Cuahutémoc,</p>
+          <p>Ciudad de México</p>
+        </article>
+      </div>
+      <img class="footer__image" src="images/showMe.png" alt="">
+    </section>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="javascript/firebase.js" async></script>
+  <script src="javascript/leads-form.js" async></script>
+  <script src="javascript/index.js" async></script>
+  <script src="javascript/sidenav.js" async></script>
+</body>
+</html>

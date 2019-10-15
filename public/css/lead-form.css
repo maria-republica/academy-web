@@ -1,0 +1,181 @@
+.form__intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 0;
+}
+
+
+.form__intro__background {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/cover-images/why-us__cover.jpg');
+  background-size: cover;
+  background-position: top;
+
+}
+
+.form__slogan {
+  text-align: center;
+  align-items: center;
+  color: var(--white-academy);
+  font-family: lato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__slogan img {
+  width: 80%;
+}
+
+.form__slogan h3 {
+  width: 80%;
+}
+
+.form__small {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.8);
+  padding: 20px;
+}
+
+.form__small form {
+  color: var(--white-academy);
+}
+
+.form__small form input,
+.form__small form select {
+  color: var(--white-academy);
+}
+
+.form__small form input,
+.form__small form select,
+.form__final form input,
+.form__final form select  {
+  -webkit-appearance:none;
+  -moz-appearance: none !important;
+  appearance: none;
+}
+
+.form__programs-background {
+  background-color: var(--white-academy);
+  padding: var(--full-padding);
+}
+
+.form__programs {
+  box-sizing: border-box;
+  color: var(--charcoal-gray);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form__program {
+  border-radius: 8px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px 0px var(--charcoal-gray);
+}
+
+.form__programs-title {
+  font-family: montserrat;
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+}
+
+.form__program img {
+  width: 70%;
+}
+
+.form__program h2 {
+  font-family: montserrat;
+  margin-top: 20px;
+  text-align:left;
+  margin-bottom: 5px;
+}
+
+.form__program p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.form__final--background {
+  background-color: var(--charcoal-gray);
+  padding: 20px 0;
+}
+
+.form__final {
+  padding: var(--full-padding);
+}
+
+.program-form--final {
+  border-radius: 8px;
+  background-color: var(--white-academy);
+  padding: 20px;
+}
+
+.thx-message.white {
+  color: var(--white-academy);
+}
+
+.whats {
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  display: block;
+  cursor: pointer;
+  background-color: #0E9D58;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.black-span {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.form__slide-arrow {
+  color: white;
+  background-color: var(--card-academy);
+  text-align: right;
+  margin: 0 auto;
+  font-size: 12px;
+  padding: 3px;
+  display: none;
+}
+
+.form__slide-arrow img{
+  vertical-align: middle;
+}
+
+@media (max-width:900px) {
+  .form__intro {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .form__programs  {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .form__program {
+    min-width: 250px;
+    margin-left: 15px;
+  }
+
+  .form__program:first-child {
+    margin: 0;
+  }
+
+  .form__small {
+    margin-top: 20px;
+  }
+
+  .form__slide-arrow {
+    display: block;
+  }
+}

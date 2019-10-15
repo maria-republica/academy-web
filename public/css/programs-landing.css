@@ -1,0 +1,305 @@
+.program-navbar {
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .8s;
+  -moz-transition: all .8s;
+  -ms-transition: all .8s;
+  -o-transition: all .8s;
+  transition: all .8s;
+}
+
+.program-navbar.active {
+  top: 0;
+}
+
+@media screen and (max-width:450px) {
+  .program-navbar {
+    top: inherit;
+    bottom: -100px;
+  }
+
+  .program-navbar.active {
+    top: inherit;
+    bottom: 0;
+  }
+}
+
+.landing__links {
+  width: inherit;
+}
+
+.landing__links a {
+  margin: 0 15px;
+}
+
+.charcoal-section {
+  background-color: var(--charcoal-gray);
+  padding: var(--full-padding);
+}
+
+.charcoal__title--yellow {
+  color: var(--highlight-yellow);
+}
+
+.charcoal__title--blue {
+  color: var(--highlight-blue);
+}
+
+.charcoal-section__list {
+  color: var(--white-academy);
+  list-style: none;
+  margin: 40px 0;
+}
+
+.charcoal-section__list li {
+  margin: 15px 0;
+}
+
+.charcoal-section p {
+  color: var(--white-academy);
+}
+
+.comunity-parallax {
+  background-image: url('../images/cover-images/why-us__cover.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 75vh;
+  width: 100%;
+}
+
+.open-class-parallax {
+  background-image: url('../images/cover-images/demoday.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 75vh;
+  width: 100%;
+}
+
+@media screen and (max-width:450px) {
+  .open-class-parallax {
+    background-attachment: local;
+    background-position: top right;
+  }
+}
+
+.becas-parallax {
+  background-image: url('../images/cover-images/somos-academy.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 75vh;
+  width: 100%;
+}
+
+.admission {
+  background-color: #161A1A;
+  color: var(--white-academy);
+}
+.admission picture {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.admission img {
+  width: 100%;
+}
+
+.financing {
+  padding: var(--full-padding);
+}
+
+.financing__info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.financing__cost {
+  background-color: var(--black-academy);
+  color: var(--white-academy);
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.financing__inscription {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.financing__options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.financing__card {
+  background-color: var(--white-academy);
+  border-radius: 10px;
+  padding: 20px;
+  height: 170px;
+  margin: 20px 0;
+  text-align: center;
+  width: 150px;
+}
+
+.financing__card.beca {
+  width: 200px;
+}
+
+.financing__card__title {
+  border-bottom: 3px solid var(--charcoal-gray);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.financing__card p {
+  margin-bottom: 20px;
+}
+
+.financing__card--3 p {
+  margin-bottom: 10px;
+}
+
+.landing-comunity {
+  display: flex;
+  line-height: 30px;
+}
+
+.landing-comunity picture {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  width: 300px;
+}
+
+.landing-comunity img {
+  width: 100%;
+}
+
+.footer-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.footer__seal {
+  display: block;
+  text-align: center;
+  margin:20px 0 -25px 0;
+}
+
+.footer__seal img {
+  width: 300px;
+}
+
+.float_button {
+  bottom: 70px;
+  color: var(--white-academy);
+  padding: 20px;
+  position: fixed;
+  right: -150px;
+  width: 150px;
+  -webkit-transition: right .6s;
+  -moz-transition: right .6s;
+  -ms-transition: right .6s;
+  -o-transition: right .6s;
+  transition: right .6s;
+}
+
+.float_button.active {
+  right: 50px;
+}
+
+@media all and (max-width: 700px) {
+  .comunity-parallax {
+    background-position: left;
+    background-attachment: scroll;
+  }
+  .landing-comunity {
+    flex-wrap: wrap;
+  }
+  .float_button {
+    bottom: 80px;
+    right: -150px;
+  }
+
+  .float_button.active {
+    right: 25px;
+  }
+}
+
+.micro-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.micro-logo {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+}
+
+@media screen and (max-width:450px) {
+  .micro-logo {
+    width: 100%;
+  }
+}
+
+.micro-logo picture {
+  width: 100%;
+}
+
+.micro-logo picture img {
+  width: 100%;
+}
+
+.micro-title {
+  color: var(--black-academy);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.micro-title--gray {
+  color: var(--text-academy);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.acordeon-button {
+  cursor: pointer;
+}
+
+
+.learning--acordion {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.learning--acordion.active {
+  height: 75vh;
+}
+
+.learning--acordion.complete {
+  height: auto;
+}
+
+.acordeon-arrow {
+  vertical-align: middle;
+}
+
+.financing--micro {
+  margin: 0 !important;
+}

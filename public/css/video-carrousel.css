@@ -1,0 +1,101 @@
+.video-carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-carrousel__control {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 20px;
+  height: 350px;
+}
+
+.video-carrousel__control.hidden {
+  display: none;
+}
+
+.video-carrousel__control.left:hover {
+  background-image: linear-gradient(to right, var(--primary-academy), var(--highlight-blue));
+}
+.video-carrousel__control.right:hover {
+  background-image: linear-gradient(to right, var(--highlight-blue), var(--primary-academy));
+}
+
+.video-carrousel__window {
+  display: flex;
+  overflow: hidden;
+  height: 350px;
+  width: 600px;
+  position: relative;
+  border: 5px solid var(--primary-academy);
+}
+
+.video--ux {
+  border: 5px solid var(--ux-color);
+}
+
+.video--fullstack {
+  border: 5px solid var(--fullstack-color);
+}
+
+.video--mobile-web {
+  border: 5px solid var(--web-specialist-color);
+}
+
+.video--machine {
+  border: 5px solid var(--machine-color);
+}
+
+.video--flutter {
+  border: 5px solid var(--flutter-color);
+}
+
+.video--cloud-architect {
+  border: 5px solid var(--cloud-color);
+}
+
+.video--microcursos {
+  border: 5px solid var(--microcursos-color);
+}
+
+.video-carrousel__wrapper {
+  padding: 0;
+  -webkit-transition: transform .6s;
+  -moz-transition: transform .6s;
+  -ms-transition: transform .6s;
+  -o-transition: transform .6s;
+  transition: transform .6s;
+}
+
+@media screen and (max-width: 767px) {
+
+  .cover--video .video-wrapper {
+    background-color: var(--black-academy);
+    padding: 0;
+    width: 300px;
+  }
+
+  .video-wrapper iframe,
+  .video-carrousel__window{
+    width: 300px;
+    height: 200px;
+  }
+
+  .video-carrousel__control {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .video-carrousel {
+    margin: 20px 0;
+  }
+  .video-carrousel__control {
+    display: none;
+  }
+}
